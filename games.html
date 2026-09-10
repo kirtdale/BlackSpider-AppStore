@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Games | BlackSpider Entertainment</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #070707;
+      color: #ffffff;
+    }
+
+    header {
+      border-bottom: 1px solid #222;
+      background: #080808;
+    }
+
+    .container {
+      width: min(1100px, 92%);
+      margin: 0 auto;
+    }
+
+    .header-inner {
+      min-height: 110px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 25px;
+      font-weight: 800;
+    }
+
+    .brand img {
+      width: 38px;
+      height: 38px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .back-btn {
+      color: white;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 12px 18px;
+      text-decoration: none;
+    }
+
+    .back-btn:hover {
+      border-color: #f0183b;
+    }
+
+    main {
+      min-height: 480px;
+      padding: 55px 0 80px;
+    }
+
+    h1 {
+      font-size: 34px;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: #aaa;
+      margin-bottom: 35px;
+    }
+
+    .empty-card {
+      background: #111;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 55px 30px;
+      text-align: center;
+    }
+
+    .game-icon {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 20px;
+      border-radius: 18px;
+      background: #191919;
+      border: 1px solid #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 38px;
+    }
+
+    .empty-card h2 {
+      font-size: 27px;
+      margin-bottom: 12px;
+    }
+
+    .empty-card p {
+      color: #aaa;
+      line-height: 1.6;
+    }
+
+    .coming {
+      display: inline-block;
+      margin-top: 22px;
+      background: #f0183b;
+      padding: 11px 22px;
+      border-radius: 30px;
+      font-weight: bold;
+    }
+
+    footer {
+      border-top: 1px solid #222;
+      color: #999;
+      padding: 28px 0;
+    }
+
+    @media (max-width: 650px) {
+      .brand {
+        font-size: 19px;
+      }
+
+      h1 {
+        font-size: 29px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container header-inner">
+
+    <div class="brand">
+      <img src="blackspider-logo.png" alt="BlackSpider Entertainment">
+      BlackSpider Entertainment
+    </div>
+
+    <a class="back-btn" href="index.html">← Back to App Store</a>
+
+  </div>
+</header>
+
+<main>
+  <div class="container">
+
+    <h1>Games</h1>
+    <p class="subtitle">
+      Browse games available from BlackSpider Entertainment.
+    </p>
+
+    <div class="empty-card">
+
+      <div class="game-icon">🎮</div>
+
+      <h2>Games Coming Soon</h2>
+
+      <p>
+        New Android and Fire TV games will be added here.
+        Check back for upcoming releases.
+      </p>
+
+      <div class="coming">COMING SOON</div>
+
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    © 2026 BlackSpider Entertainment. All rights reserved.
+  </div>
+</footer>
+
+</body>
+</html>
