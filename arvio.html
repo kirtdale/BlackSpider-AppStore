@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ARVIO | BlackSpider Entertainment</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #080808;
+    color: white;
+}
+
+header {
+    background: #111;
+    border-bottom: 2px solid #ff1744;
+    padding: 18px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.brand img {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+}
+
+.back {
+    color: #ff1744;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.app {
+    background: #121212;
+    border: 1px solid #292929;
+    border-radius: 20px;
+    padding: 35px;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.app img {
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+h1 {
+    margin: 0 0 8px;
+    font-size: 38px;
+}
+
+.category {
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.stars {
+    color: #ffc107;
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+
+.description {
+    color: #ccc;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+.download-btn {
+    display: inline-block;
+    margin-top: 22px;
+    padding: 14px 28px;
+    background: #ff1744;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.download-btn:hover {
+    background: #ff3d63;
+}
+
+.info {
+    margin-top: 30px;
+    background: #121212;
+    border: 1px solid #292929;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.info-box {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 14px;
+}
+
+.info-box span {
+    display: block;
+    color: #888;
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+@media (max-width: 700px) {
+    .app {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="brand">
+        <img src="blackspider-logo.png" alt="BlackSpider">
+        BlackSpider Entertainment
+    </div>
+
+    <a class="back" href="index.html">← Back to App Store</a>
+</header>
+
+<div class="container">
+
+    <div class="app">
+
+        <img src="Arvio.png" alt="ARVIO">
+
+        <div>
+            <h1>ARVIO</h1>
+
+            <div class="category">
+                Entertainment
+            </div>
+
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <div class="description">
+                ARVIO is an entertainment application designed for compatible
+                Android devices and Fire TV devices.
+            </div>
+
+            <a class="download-btn"
+               href="https://github.com/kirtdale/BlackSpider-AppStore/releases/download/v1.9.95/ARVIO-v1.9.995-sideload-release.apk">
+                Download ARVIO
+            </a>
+        </div>
+
+    </div>
+
+    <div class="info">
+
+        <h2>App Information</h2>
+
+        <div class="info-grid">
+
+            <div class="info-box">
+                <span>Category</span>
+                Entertainment
+            </div>
+
+            <div class="info-box">
+                <span>Platform</span>
+                Android / Fire TV
+            </div>
+
+            <div class="info-box">
+                <span>Version</span>
+                v1.9.95
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
