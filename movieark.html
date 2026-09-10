@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovieARK | BlackSpider Entertainment</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #070707;
+      color: white;
+    }
+
+    header {
+      border-bottom: 1px solid #222;
+      padding: 20px;
+    }
+
+    .header-inner {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .logo {
+      width: 45px;
+      height: 45px;
+      border-radius: 12px;
+    }
+
+    .back {
+      margin-left: auto;
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 60px auto;
+      padding: 20px;
+    }
+
+    .app {
+      background: #111;
+      border: 1px solid #292929;
+      border-radius: 25px;
+      padding: 45px;
+      display: flex;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .app-image {
+      width: 230px;
+      height: 230px;
+      object-fit: cover;
+      border-radius: 30px;
+    }
+
+    h1 {
+      font-size: 44px;
+      margin-bottom: 10px;
+    }
+
+    .category {
+      color: #aaa;
+      margin-bottom: 15px;
+    }
+
+    .rating {
+      color: #ffcf33;
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+
+    p {
+      color: #ccc;
+      line-height: 1.7;
+      margin-bottom: 30px;
+    }
+
+    .download {
+      display: inline-block;
+      background: #f0183d;
+      color: white;
+      padding: 16px 28px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .download:hover {
+      background: #ff3153;
+    }
+
+    @media (max-width: 700px) {
+      .app {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+
+      .app-image {
+        width: 190px;
+        height: 190px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="header-inner">
+    <img src="blackspider-logo.png" class="logo" alt="BlackSpider">
+    <h2>BlackSpider Entertainment</h2>
+    <a class="back" href="index.html">← Back to App Store</a>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="app">
+
+    <img
+      src="Movie Ark.jpg"
+      class="app-image"
+      alt="MovieARK">
+
+    <div>
+
+      <h1>MovieARK</h1>
+
+      <div class="category">
+        Movies &amp; Entertainment
+      </div>
+
+      <div class="rating">
+        ★★★★★
+      </div>
+
+      <p>
+        MovieARK is an entertainment app for enjoying movie content
+        directly on compatible Android devices.
+      </p>
+
+      <a
+        class="download"
+        href="MovieARK__v5.0.2___1_.apk"
+        download>
+        Download MovieARK
+      </a>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
