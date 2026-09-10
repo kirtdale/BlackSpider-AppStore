@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Orion Store | BlackSpider Entertainment</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #050505;
+    color: white;
+}
+
+header {
+    background: #0d0d0d;
+    border-bottom: 1px solid #222;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.brand img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.back {
+    color: #ff1744;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 25px;
+}
+
+.app-hero {
+    background: #111;
+    border: 1px solid #242424;
+    border-radius: 22px;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.app-icon {
+    width: 180px;
+    height: 180px;
+    border-radius: 28px;
+    object-fit: cover;
+}
+
+.app-info h1 {
+    margin: 0 0 10px;
+    font-size: 38px;
+}
+
+.category {
+    color: #aaa;
+    margin-bottom: 15px;
+}
+
+.stars {
+    color: #ffc107;
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+
+.description {
+    color: #ccc;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+.download-btn {
+    display: inline-block;
+    margin-top: 22px;
+    padding: 14px 28px;
+    background: #ff1744;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.download-btn:hover {
+    background: #ff3d63;
+}
+
+.details {
+    margin-top: 30px;
+    background: #111;
+    border: 1px solid #242424;
+    border-radius: 18px;
+    padding: 30px;
+}
+
+.details h2 {
+    margin-top: 0;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.info-box {
+    background: #181818;
+    padding: 18px;
+    border-radius: 12px;
+}
+
+.info-box span {
+    display: block;
+    color: #888;
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+@media (max-width: 700px) {
+    .app-hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="brand">
+        <img src="blackspider-logo.png" alt="BlackSpider">
+        BlackSpider Entertainment
+    </div>
+
+    <a class="back" href="index.html">← Back to App Store</a>
+</header>
+
+<main class="container">
+
+    <section class="app-hero">
+
+        <img class="app-icon"
+             src="orion-store.jpg"
+             alt="Orion Store">
+
+        <div class="app-info">
+
+            <h1>Orion Store</h1>
+
+            <div class="category">
+                App Store & Entertainment
+            </div>
+
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <div class="description">
+                Orion Store provides a convenient way to discover and
+                access apps on compatible Android and Fire TV devices.
+            </div>
+
+            <a class="download-btn"
+               href="https://www.mediafire.com/file/ksa5gbux2ng4soe/Orion_Store+(4).apk/file"
+               target="_blank">
+                Download APK
+            </a>
+
+        </div>
+    </section>
+
+    <section class="details">
+
+        <h2>App Information</h2>
+
+        <div class="info-grid">
+
+            <div class="info-box">
+                <span>Category</span>
+                App Store
+            </div>
+
+            <div class="info-box">
+                <span>Platform</span>
+                Android / Fire TV
+            </div>
+
+            <div class="info-box">
+                <span>Download</span>
+                MediaFire
+            </div>
+
+        </div>
+
+        <h2 style="margin-top:30px;">About This App</h2>
+
+        <p class="description">
+            Download Orion Store through BlackSpider Entertainment.
+            The APK is hosted securely through our external download provider.
+        </p>
+
+    </section>
+
+</main>
+
+</body>
+</html>
