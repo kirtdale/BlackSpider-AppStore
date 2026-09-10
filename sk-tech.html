@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SK Tech - BlackSpider Entertainment</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #070707;
+  color: #ffffff;
+}
+
+header {
+  background: #111;
+  border-bottom: 2px solid #ff1744;
+  padding: 18px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand img {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+}
+
+.brand h2 {
+  font-size: 22px;
+}
+
+.back {
+  color: #ff1744;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  width: min(1000px, 92%);
+  margin: 65px auto;
+}
+
+.app-card {
+  background: #121212;
+  border: 1px solid #333;
+  border-radius: 18px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.app-card img {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.app-info h1 {
+  font-size: 34px;
+  margin-bottom: 8px;
+}
+
+.category {
+  color: #bbbbbb;
+  margin-bottom: 18px;
+}
+
+.rating {
+  color: #ffd600;
+  font-size: 21px;
+  margin-bottom: 22px;
+}
+
+.description {
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.download-btn {
+  display: inline-block;
+  background: #ff1744;
+  color: white;
+  padding: 14px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.download-btn:hover {
+  background: #ff3d63;
+}
+
+.info-section {
+  background: #121212;
+  border: 1px solid #333;
+  border-radius: 18px;
+  padding: 26px;
+  margin-top: 28px;
+}
+
+.info-section h2 {
+  margin-bottom: 20px;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.info-box {
+  background: #1d1d1d;
+  border-radius: 14px;
+  padding: 18px;
+}
+
+.label {
+  color: #aaaaaa;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+@media (max-width: 700px) {
+  .app-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  header {
+    padding: 15px 5%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="brand">
+    <img src="blackspider-logo.png" alt="BlackSpider">
+    <h2>BlackSpider Entertainment</h2>
+  </div>
+
+  <a class="back" href="index.html">← Back to App Store</a>
+</header>
+
+<main>
+
+  <section class="app-card">
+
+    <img src="SK Tech Apk.png" alt="SK Tech">
+
+    <div class="app-info">
+
+      <h1>SK Tech</h1>
+
+      <div class="category">Entertainment</div>
+
+      <div class="rating">★★★★★</div>
+
+      <p class="description">
+        SK Tech is an entertainment application designed for compatible
+        Android and Fire TV devices.
+      </p>
+
+      <a class="download-btn"
+         href="SK__Tech.1_apk%20(New).apk"
+         download>
+         Download SK Tech
+      </a>
+
+    </div>
+
+  </section>
+
+  <section class="info-section">
+
+    <h2>App Information</h2>
+
+    <div class="info-grid">
+
+      <div class="info-box">
+        <div class="label">Category</div>
+        Entertainment
+      </div>
+
+      <div class="info-box">
+        <div class="label">Platform</div>
+        Android / Fire TV
+      </div>
+
+      <div class="info-box">
+        <div class="label">Version</div>
+        Latest Release
+      </div>
+
+    </div>
+
+  </section>
+
+</main>
+
+</body>
+</html>
