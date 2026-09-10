@@ -497,6 +497,23 @@
     © 2026 BlackSpider Entertainment. All rights reserved.
   </div>
 </footer>
+<script>
+  const searchBox = document.querySelector('.search');
+  const appCards = document.querySelectorAll('.app-card');
 
+  searchBox.addEventListener('input', function () {
+    const searchText = this.value.toLowerCase().trim();
+
+    appCards.forEach(function (card) {
+      const appText = card.textContent.toLowerCase();
+
+      if (appText.includes(searchText)) {
+        card.style.display = '';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  });
+</script>
 </body>
 </html>
