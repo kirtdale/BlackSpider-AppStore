@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entertainment - BlackSpider App Store</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #070707;
+      color: #ffffff;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(1100px, 92%);
+      margin: auto;
+    }
+
+    header {
+      border-bottom: 1px solid #292929;
+      padding: 22px 0;
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 24px;
+      font-weight: 800;
+    }
+
+    .brand img {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+
+    .back-btn {
+      padding: 11px 18px;
+      border: 1px solid #333;
+      border-radius: 10px;
+    }
+
+    main {
+      padding: 55px 0 80px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: #aaa;
+      margin-bottom: 35px;
+    }
+
+    .apps-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .app-card {
+      background: #111;
+      border: 1px solid #292929;
+      border-radius: 18px;
+      padding: 22px;
+    }
+
+    .app-icon {
+      width: 82px;
+      height: 82px;
+      border-radius: 18px;
+      object-fit: cover;
+      margin-bottom: 18px;
+    }
+
+    .app-card h2 {
+      font-size: 21px;
+      margin-bottom: 7px;
+    }
+
+    .category {
+      color: #999;
+      font-size: 14px;
+      margin-bottom: 12px;
+    }
+
+    .rating {
+      color: #ffd000;
+      margin-bottom: 18px;
+    }
+
+    .view-btn {
+      display: inline-block;
+      background: #ef1738;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-weight: 700;
+    }
+
+    footer {
+      border-top: 1px solid #222;
+      padding: 25px 0;
+      color: #888;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container header-inner">
+    <div class="brand">
+      <img src="blackspider-logo.png" alt="BlackSpider Entertainment">
+      <span>BlackSpider Entertainment</span>
+    </div>
+
+    <a class="back-btn" href="index.html">← Back to App Store</a>
+  </div>
+</header>
+
+<main class="container">
+
+  <h1>Entertainment</h1>
+  <p class="subtitle">Browse entertainment apps available from BlackSpider Entertainment.</p>
+
+  <div class="apps-grid">
+
+    <div class="app-card">
+      <img class="app-icon" src="blackspider-player.png" alt="BlackSpider IPTV Player">
+      <h2>BlackSpider IPTV Player</h2>
+      <div class="category">Entertainment</div>
+      <div class="rating">★★★★★</div>
+      <a class="view-btn" href="blackspider-iptv.html">VIEW</a>
+    </div>
+
+    <div class="app-card">
+      <img class="app-icon" src="Movie Ark.jpg" alt="MovieARK">
+      <h2>MovieARK</h2>
+      <div class="category">Movies & Entertainment</div>
+      <div class="rating">★★★★★</div>
+      <a class="view-btn" href="movieark.html">VIEW</a>
+    </div>
+
+  </div>
+
+</main>
+
+<footer>
+  <div class="container">
+    © 2026 BlackSpider Entertainment. All rights reserved.
+  </div>
+</footer>
+
+</body>
+</html>
