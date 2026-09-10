@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Utilities - BlackSpider Entertainment</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #070707;
+      color: #ffffff;
+    }
+
+    header {
+      border-bottom: 1px solid #242424;
+      padding: 28px 20px;
+    }
+
+    .container {
+      width: min(1200px, 92%);
+      margin: 0 auto;
+    }
+
+    .header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    .brand img {
+      width: 42px;
+      height: 42px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .back-btn {
+      border: 1px solid #444;
+      padding: 12px 18px;
+      border-radius: 10px;
+      color: white;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 50px 0 70px;
+    }
+
+    h1 {
+      font-size: 34px;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: #b7b7b7;
+      margin-bottom: 36px;
+    }
+
+    .coming-card {
+      min-height: 315px;
+      border: 1px solid #333;
+      background: #111;
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px;
+    }
+
+    .icon {
+      width: 74px;
+      height: 74px;
+      border: 1px solid #444;
+      border-radius: 16px;
+      display: grid;
+      place-items: center;
+      font-size: 34px;
+      margin-bottom: 18px;
+    }
+
+    .coming-card h2 {
+      font-size: 28px;
+      margin-bottom: 14px;
+    }
+
+    .coming-card p {
+      color: #b7b7b7;
+      margin-bottom: 24px;
+    }
+
+    .coming-btn {
+      background: #ff1744;
+      color: white;
+      padding: 12px 22px;
+      border-radius: 25px;
+      font-weight: bold;
+    }
+
+    footer {
+      border-top: 1px solid #242424;
+      padding: 28px 0;
+      color: #999;
+    }
+
+    @media (max-width: 650px) {
+      .brand {
+        font-size: 19px;
+      }
+
+      .brand img {
+        width: 36px;
+        height: 36px;
+      }
+
+      .back-btn {
+        padding: 10px 12px;
+        font-size: 13px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container header-row">
+
+    <div class="brand">
+      <img src="blackspider-logo.png" alt="BlackSpider">
+      <span>BlackSpider Entertainment</span>
+    </div>
+
+    <a class="back-btn" href="index.html">← Back to App Store</a>
+
+  </div>
+</header>
+
+<main>
+  <div class="container">
+
+    <h1>Utilities</h1>
+    <p class="subtitle">Browse useful apps and tools from BlackSpider Entertainment.</p>
+
+    <div class="coming-card">
+
+      <div class="icon">🛠️</div>
+
+      <h2>Utilities Coming Soon</h2>
+
+      <p>
+        New Android and Fire TV utilities will be added here.
+        Check back for upcoming releases.
+      </p>
+
+      <div class="coming-btn">COMING SOON</div>
+
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    © 2026 BlackSpider Entertainment. All rights reserved.
+  </div>
+</footer>
+
+</body>
+</html>
